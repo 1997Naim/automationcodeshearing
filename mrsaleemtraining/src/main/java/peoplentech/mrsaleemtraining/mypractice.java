@@ -9,7 +9,7 @@ static WebDriver driver;
 		// TODO Auto-generated method stub
 
 	
-	for(int a=1;a<=4;a++){
+	for(int a=0;a<=4;a++){
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\naimu\\eclipse-workspace\\mrsaleemtraining\\src\\drivers\\chromedriver.exe");
 		 driver=new ChromeDriver();
 		 driver.navigate().to("https://www.amazon.com");
